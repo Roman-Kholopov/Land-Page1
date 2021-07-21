@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+ margin: 0 auto;
+ font-family: Roboto, sans-serif;
+}
+*{
+  box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+}
+
+.header__main{
+    width: 100%;
+    background-color: #007765;
+    height: 84px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    
+}
+
+.main__conteiner{
+    width: 100%;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.navigation__conteiner{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+
+}
+
+.menu__link{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: font-size .3s linear;
+
+}
+
+.menu__link:hover{
+    color: #00342c;
+    font-size: 28px;
+}
+
+.Jumbotron{
+    background: url(../img/jumbotron.png) center no-repeat;
+    background-size: cover;
+    margin-top: 84px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    
+}
+
+.main__title{
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.problem{
+    background-color: #EEEEEE;
+    padding-top: 48px;
+    padding-bottom: 92px;
+}
+
+.title__problem{
+    padding-top: 48px;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+}
+
+.text__problem{
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.citate{
+    font-weight: bold;
+}
+
+.hero{
+    background: url("../img/hero.png") center no-repeat;
+    background-size: cover;
+    padding-top: 128px;
+    padding-bottom: 128px;
+  }
+
+.text__hero{
+    width: 100%;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+}
+
+.ppc{
+    background: #FFFFFF;
+    padding-top: 48px;
+    padding-bottom: 92px;
+}
+
+.ppc__title{
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+}
+
+.ppc__logo__img{
+    float: left;
+    padding-right: 48px;
+}
+
+.ppc__text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.the__team{
+    background: #EEEEEE;
+    padding-top: 48px;
+    padding-bottom: 94px;
+}
+
+.the__team__title{
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+}
+
+.members{
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.member{
+    width: 350px;
+    height: 283px;
+    text-align: center;
+    padding: 24px;
+}
+
+.member__name{
+    margin: 0;
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #007765;
+}
+
+.member__roll{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.footer{
+    height: 176px;
+    padding-top: 52px;
+    background: #333333;
+}
+
+.footer__cite{
+    
+}
+
+.text__footer{
+    margin: 0 auto;
+    width: 540px;
+    height: 64px;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
